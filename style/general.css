@@ -1,0 +1,11 @@
+body {
+    background-color: #3f060a;
+    background-image: url("../images/flag.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, body {
+    font-family: 'Righteous', cursive;
+}
