@@ -1,0 +1,20 @@
+.cite {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: #3f060a;
+}
+
+.cite__quote {
+    font-family: 'Comfortaa', cursive;
+    max-width: 80vw;
+    margin: 1rem auto 0 auto;
+    font-size: 1.2rem;
+    color: #dacdce;
+}
+
+.cite__source {
+    font-family: 'Comfortaa', cursive;
+    font-style: italic;
+}
