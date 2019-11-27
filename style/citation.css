@@ -4,11 +4,13 @@
     margin-top: 10rem;
     padding: 2rem;
     background-color: #3f060a;
+    max-width: 80vw;
+    margin: 10rem auto 0 auto;
 }
 
 .cite__quote {
     font-family: 'Comfortaa', cursive;
-    max-width: 80vw;
+    /* max-width: 80vw; */
     margin: 1rem auto 0 auto;
     font-size: 1.2rem;
     color: #dacdce;
@@ -17,4 +19,12 @@
 .cite__source {
     font-family: 'Comfortaa', cursive;
     font-style: italic;
+    text-align: right;
+}
+
+
+p.cite__quote::before {content: open-quote;}
+
+p.cite__quote::after {
+    content: close-quote;
 }
