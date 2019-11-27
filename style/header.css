@@ -1,0 +1,20 @@
+.header {
+
+}
+
+.header__title {
+    text-align: center;
+    font-size: 16rem;
+    text-shadow: 6px 7px 4px #000000;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 0;
+}
+
+.header__subtitle {
+    text-align: center;
+    margin-top: -2.5rem;
+    text-shadow: 4px 4px 0px #000000;
+    font-size: 3rem;
+    color: #f14141;
+}
